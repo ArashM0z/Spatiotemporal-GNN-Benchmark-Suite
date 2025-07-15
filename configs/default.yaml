@@ -1,0 +1,15 @@
+encoder_steps: 12
+decoder_steps: 12
+hidden: 32
+epochs: 10
+batch_size: 16
+lr: 1.0e-3
+weight_decay: 1.0e-5
+seed: 20260514
+device: cpu
+val_fraction: 0.2
+test_fraction: 0.2
+cheb_k: 3
+mlflow_tracking_uri: file:./mlruns
+mlflow_experiment: stgnn-bench
+wandb_project: stgnn-bench

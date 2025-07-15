@@ -1,0 +1,15 @@
+encoder_steps: 6
+decoder_steps: 3
+hidden: 8
+epochs: 1
+batch_size: 2
+lr: 1.0e-3
+weight_decay: 1.0e-5
+seed: 0
+device: cpu
+val_fraction: 0.3
+test_fraction: 0.3
+cheb_k: 3
+mlflow_tracking_uri: file:./mlruns
+mlflow_experiment: stgnn-bench-smoke
+wandb_project: stgnn-bench-smoke
